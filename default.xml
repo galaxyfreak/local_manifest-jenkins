@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device -->
+        	<project path="device/sony/yukon" name="galaxyfreak/device-sony-yukon" revision="cm" />
+        	<project path="device/sony/eagle" name="galaxyfreak/device-sony-eagle" revision="cm" />
+		
+	<!-- Kernel -->
+        	<project path="kernel/sony/msm8974" name="galaxyfreak/kernel" revision="cm-12.1" />   
+	
+	<!-- Proprietary blobs -->
+		<project path="vendor/qcom" name="galaxyfreak/vendor-qcom" revision="cm-12.1" />
+		<project path="vendor/sony" name="galaxyfreak/vendor-sony" revision="cm-12.1" />
+
+	<!-- From roomservice -->
+		<project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" />
+		<project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+		<project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" />
+
+	<!-- A useful addition from sonyxperiadev -->
+		<project path="hardware/sony/system/timekeep" name="sonyxperiadev/timekeep" groups="device" revision="master" />
+		
+	<!-- Custom HALs -->
+  		<remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+		<remove-project name="CyanogenMod/android_hardware_qcom_display" />
+		<remove-project name="CyanogenMod/android_hardware_qcom_media" />
+		<remove-project name="CyanogenMod/android_hardware_libhardware" />
+		<project path="hardware/qcom/audio/default" name="galaxyfreak/platform_hardware_qcom_audio" revision="cm-12.1" />
+		<project path="hardware/qcom/media/default" name="galaxyfreak/platform_hardware_qcom_media" revision="cm-12.1" />
+		<project path="hardware/qcom/display" name="galaxyfreak/platform_hardware_qcom_display" revision="cm-12.1" />
+		<project path="hardware/libhardware" name="galaxyfreak/android_hardware_libhardware" revision="cm-12.1" />
+		
+		<remove-project name="CyanogenMod/android_external_tinycompress" />
+		<project path="external/tinycompress" name="galaxyfreak/android_external_tinycompress" revision="cm-12.1" />
+</manifest>
