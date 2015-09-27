@@ -24,10 +24,12 @@
 		<remove-project name="CyanogenMod/android_hardware_qcom_display" />
 		<remove-project name="CyanogenMod/android_hardware_qcom_media" />
 		<remove-project name="CyanogenMod/android_hardware_libhardware" />
+		<remove-project name="CyanogenMod/android_system_core" />
 		<project path="hardware/qcom/audio/default" name="galaxyfreak/platform_hardware_qcom_audio" revision="cm-12.1" />
 		<project path="hardware/qcom/media/default" name="galaxyfreak/platform_hardware_qcom_media" revision="cm-12.1" />
 		<project path="hardware/qcom/display" name="galaxyfreak/platform_hardware_qcom_display" revision="cm-12.1" />
 		<project path="hardware/libhardware" name="galaxyfreak/android_hardware_libhardware" revision="cm-12.1" />
+		<project path="system/core" name="galaxyfreak/android_system_core" revision="cm-12.1" />
 		
 		<remove-project name="CyanogenMod/android_external_tinycompress" />
 		<project path="external/tinycompress" name="galaxyfreak/android_external_tinycompress" revision="cm-12.1" />
