@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device -->
-        	<project path="device/sony/yukon" name="galaxyfreak/device-sony-yukon" revision="cm" />
-        	<project path="device/sony/eagle" name="galaxyfreak/device-sony-eagle" revision="cm" />
+        	<project path="device/sony/yukon-common" name="galaxyfreak/android_device_sony_yukon-common" revision="cm" />
+        	<project path="device/sony/eagle" name="android_device_sony_eagle-1" revision="cm" />
 		
 	<!-- Kernel -->
         	<project path="kernel/sony/msm8974" name="galaxyfreak/kernel" revision="cm-12.1" />   
