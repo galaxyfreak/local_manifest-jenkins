@@ -18,11 +18,9 @@
 		<project path="hardware/sony/system/timekeep" name="sonyxperiadev/timekeep" groups="device" revision="master" />
 		
 	<!-- Custom HALs -->
-  		<remove-project name="CyanogenMod/android_hardware_qcom_audio" />
 		<remove-project name="CyanogenMod/android_hardware_qcom_media" />
 		<remove-project name="CyanogenMod/android_hardware_libhardware" />
 		<remove-project name="CyanogenMod/android_system_core" />
-		<project path="hardware/qcom/audio/default" name="galaxyfreak/platform_hardware_qcom_audio" revision="cm-12.1" />
 		<project path="hardware/qcom/media/default" name="galaxyfreak/platform_hardware_qcom_media" revision="cm-12.1" />
 		<project path="hardware/libhardware" name="galaxyfreak/android_hardware_libhardware" revision="cm-12.1" />
 		<project path="system/core" name="galaxyfreak/android_system_core" revision="cm-12.1" />
