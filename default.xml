@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	
+	<!-- Custom build system -->
+		<remove-project name="CyanogenMod/android_build" />
+                <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+                  <copyfile src="core/root.mk" dest="Makefile" />
+                </project>
+
 	<!-- Device -->
         	<project path="device/sony/yukon-common" name="galaxyfreak/android_device_sony_yukon-common" revision="cm" />
         	<project path="device/sony/eagle" name="galaxyfreak/device_sony_eagle" revision="cm" />
