@@ -3,7 +3,7 @@
 	
 	<!-- Custom build system -->
 		<remove-project name="CyanogenMod/android_build" />
-                <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+                <project path="build" name="galaxyfreak/android_build" groups="pdk,tradefed" revision="cm-12.1" >
                   <copyfile src="core/root.mk" dest="Makefile" />
                 </project>
 
